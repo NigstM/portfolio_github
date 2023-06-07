@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pra/js-pra"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personal portfo"
+	}
+}

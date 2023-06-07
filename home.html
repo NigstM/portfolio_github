@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatible" content="IE=edge">
+     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+     <title>Responsive Personal Website</title>
+     <link rel="stylesheet" href="home.css"> 
+     <!---font awesome cdn font icon css----->
+      
+     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+<div id="header">
+    <div class="containor">
+        <nav>
+            <img src="logo1.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            
+            </ul>            
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+             
+            <h1>Hello, <br>My Name Is<br> Nigst Menebere</h1>
+                </div>
+    </div>
+    
+     
+</div>
+ <!--------about------>
+
+<div id="about">
+    <div class="containor">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="p11.jpg" alt="image of Nigst">
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About Me</h1>
+                <p>I am Nigst Menebere, I'm student in ASTU, who is trying to become the 
+                    best software engineer.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('my fevorite things to do')">My fevorite things to do</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Graphics Design</span><br>Designing Logos, Photo Editing</li>
+                        <li><span>3D Animation</span><br>designing 3D animation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Software Engineering at Astu</li>
+                        <li><span>2022</span><br>Enterpurnership</li>
+                        <li><span>2022 - Current</span><br>Management at Unity University</li>
+                        <li><span>2022 - 2023</span><br>graphics Designing at Astu</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="my fevorite things to do">
+                    <ul>
+                        <p>My fevorite thing to do on this earth is traveling to different places</p>
+                        <li><span>2015</span><br>I visit Axum</li>
+                        <li><span>2011</span><br>I visit Arbhara Medhanialem and Zebir Gebril</li>
+                        <li><span>1995 - current</span><br>I go to Gishen DebireKerbe and Hayik Estifanos Gedam</li>
+                        <li><span>2005</span><br>I visit Lalibela</li>
+                    </ul>
+                    <br>
+                    <div class="box">
+                        <img src="axum.jpg" alt="axum image">
+                        <img src="gishen.jpg" alt="image of gishen debre kerbe">
+                        <img src="lalibela.jpg" alt="image of lalibela">
+                        
+                    </div>
+                     
+                         
+                        
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services------->
+ <div id="services">
+    <div class="containor">
+        <h1  class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Frontend Design</h2>
+                <p>our job is, essentially, to turn designs into reality via code.
+                   Understanding, and being competent in, 
+                   design is an important component of that.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Graphics Design</h2>
+                <p> “It’s through mistakes that you actually can grow. 
+                    You have to get bad in order to get good.” - Paula Scher
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Animation Design</h2>
+                <p>“Animation is not the art of drawings that move but the art
+                     of movements that are drawn.” – Norman McLaren
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+ </div>
+ <!-----portfolio---------->
+ <div id="portfolio">
+    <div class="container">
+        <h1  class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="R.jpg" alt="logo pic">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="OIP.jpg" alt="computer pic">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="R3.jpg" alt="animation pic">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+ </div>
+ <!--------contact---->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>emumenbere@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+251963672539</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-telegram"></i></a>
+                </div>
+                <a href="cv.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-left">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Nigst. Made With<i class="fas fa-heart"></i>by Nigst Menebere</p>
+    </div>
+ </div>
+<!------js---------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwqgGkV5N82pHbI5N8wuVMkTkYvud-7HWtko47s2nc2eU0RwTYbRTup-b_iXG24ZSq5Xg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Successfully Submitted"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+       
+ </body>
+ </html>
